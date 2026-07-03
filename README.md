@@ -59,4 +59,4 @@ My goal is to build scalable and maintainable AI automation systems that deliver
 ## Contact
 
 - LinkedIn: `https://www.linkedin.com/in/your-profile`
-- Email: `your.email@example.com`
+- Email: `nikita.rozumniy77@gmail.com`
