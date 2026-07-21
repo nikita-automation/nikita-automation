@@ -1,60 +1,32 @@
-# Nikita Automation
+# Nikita Rozumniy — AI Automation Engineer
 
-Building practical AI automation systems for real business workflows.
+I build production automation systems for real businesses: event-driven pipelines that connect ordering platforms, documents, AI models and communication channels — running on self-hosted infrastructure I administer myself.
 
-## About Me
-
-I design automation systems that connect business software, AI models, APIs, webhooks, and cloud services into reliable workflows. My focus is on solving operational problems: reducing repetitive manual work, improving data flow between tools, and creating processes that are easier to track and maintain.
-
-I prefer practical business solutions over unnecessary complexity. The goal is not to add AI everywhere, but to use automation and AI services where they make a workflow faster, clearer, or more reliable.
-
-## Tech Stack
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Make.com](https://img.shields.io/badge/Make.com-6D00CC?style=for-the-badge&logo=make&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge)
-![Webhooks](https://img.shields.io/badge/Webhooks-111827?style=for-the-badge)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+📍 Germany · 💬 Ukrainian / Russian (native), German (C1), English (technical)
+🔗 [LinkedIn](https://www.linkedin.com/in/nikita-rozumniy)
 
 ## Featured Projects
 
-### AI Reels Analysis
+| Project | What it does | Stack |
+|---|---|---|
+| [**choice-invoice-automation**](https://github.com/nikita-automation/choice-invoice-automation) | Production invoice automation for a food-delivery business: ~70 accounting PDFs/day generated from order webhooks, delivered by e-mail + Google Drive, with a 3-year retention policy as code | n8n, Python, ReportLab, SQLite, OAuth2, ChoiceQR API |
+| [**content-publishing-pipeline**](https://github.com/nikita-automation/content-publishing-pipeline) | End-to-end video pipeline: translate → edit → caption → auto-publish short-form video to LinkedIn, Instagram & YouTube from a single Telegram approval | n8n, HeyGen, Submagic, Anthropic Claude, Blotato, Google Sheets |
+| [**ai-meeting-transcription**](https://github.com/nikita-automation/ai-meeting-transcription) | Meeting recordings → transcripts, summaries and action items with human review | n8n/Make.com, Whisper, OpenAI, Google Workspace |
+| [**telegram-ai-autoreply**](https://github.com/nikita-automation/telegram-ai-autoreply) | Self-hosted Telegram assistant with whitelist guard and conversation routing | Python (Telethon), n8n, OpenAI, Docker Compose |
 
-Helps content teams reduce manual research by collecting, transcribing, and evaluating short-form videos before selecting ideas for new content.
+## How I work
 
-### AI Voice Generator
+- **Business impact first** — I measure automations in hours saved and errors eliminated, not in node counts
+- **Production discipline** — idempotent pipelines, encrypted credential stores, error handling, versioned workflows, data-retention policies
+- **Self-hosted by default** — Linux VPS, Docker, Nginx, cron; full control over data and costs
 
-Automates the handoff from approved scripts to generated voice files, reducing manual copying, file handling, and production status updates.
+## Stack
 
-### AI Telegram Assistant
-
-Creates a structured AI messaging layer for handling repetitive questions, routing requests, and keeping conversations connected to automation workflows.
-
-### AI WordPress Publisher
-
-Reduces manual publishing work by turning selected content inputs into structured WordPress drafts with consistent metadata and review-ready formatting.
-
-### AI Call Analysis System
-
-Turns recorded calls into transcripts, summaries, action items, and structured reports so teams can review conversations more efficiently.
+`n8n` `Python` `Make.com` `OpenAI API` `Anthropic Claude` `Whisper` `HeyGen` `Submagic` `ElevenLabs` `Blotato` `REST APIs` `OAuth2` `Webhooks` `SQLite` `PostgreSQL` `Docker` `Linux` `Nginx` `Git` `Telegram Bot API` `Google Workspace` `Airtable`
 
 ## Currently Learning
 
-- PostgreSQL
-- Docker
-- Python
-- Advanced n8n
-- AI Agents
-
-## Goals
-
-My goal is to build scalable and maintainable AI automation systems that deliver measurable business value. I focus on workflows that are clear to operate, reliable in production, and easy to extend as business processes evolve.
+`PostgreSQL` · `Docker` · `Python` · `Advanced n8n` · `AI Agents`
 
 ## Contact
 
