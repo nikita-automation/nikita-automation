@@ -17,6 +17,17 @@ I build production automation systems for real businesses: event-driven pipeline
 | [**ai-meeting-transcription**](https://github.com/nikita-automation/ai-meeting-transcription) | Meeting recordings → transcripts, summaries and action items with human review | n8n/Make.com, Whisper, OpenAI, Google Workspace |
 | [**telegram-ai-autoreply**](https://github.com/nikita-automation/telegram-ai-autoreply) | Self-hosted Telegram assistant with whitelist guard and conversation routing | Python (Telethon), n8n, OpenAI, Docker Compose |
 
+## Demo projects — HR and staffing automation, written from scratch
+
+Reference implementations of recurring problems in HR and staffing automation, built on invented data only. Every one has a test suite that was mutation-checked, CI on Python 3.9 and 3.12, and an honest evaluation (a held-out set where a model or classifier is involved). Model-based parts are covered by tests with a stub client, not by live runs.
+
+| Project | What it does | Stack |
+|---|---|---|
+| [**shift-plan-compliance-checker**](https://github.com/nikita-automation/shift-plan-compliance-checker) | Checks shift plans against German working-time law (ArbZG): breaks, rest periods, daily and weekly hours, Sunday and holiday work. Boundary-tested, usable as a CI gate | Python (stdlib), GitHub Actions |
+| [**applicant-inbox-consolidation**](https://github.com/nikita-automation/applicant-inbox-consolidation) | Merges applications from six channels into one SQLite inbox, normalises phone numbers, e-mails and names, and merges duplicates without gluing together strangers who share a phone or a mailbox | Python, SQLite |
+| [**cv-screening-assistant**](https://github.com/nikita-automation/cv-screening-assistant) | Structured extraction from CVs and questionnaires (DE/EN): offline rules and a Claude structured-output backend, scored on a development and a held-out set (rules: 96.8 % vs 75 %), plus explained screening against a job profile | Python, Anthropic API |
+| [**email-triage-assistant**](https://github.com/nikita-automation/email-triage-assistant) | Sorts a recruiting inbox and prepares reply drafts in the Drafts folder — it never sends. The model proposes, code decides: legal and GDPR safety nets, fact-checked model-written replies | Python, IMAP, Anthropic API |
+
 ## How I work
 
 - **Business impact first** — I measure automations in hours saved and errors eliminated, not in node counts
